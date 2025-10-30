@@ -5,7 +5,6 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "preinstall": "npm install --force",
     "server": "nodemon server.js",
     "start": "node server.js"
   },
