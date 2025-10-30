@@ -10,7 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Login from "./components/Login/Login";
 
 const App = () => {
-  const url = "http://localhost:4000";
+  const url = "https://ia3-food-ordering-project.onrender.com";
   return (
     <div>
       <ToastContainer />

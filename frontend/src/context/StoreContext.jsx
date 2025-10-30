@@ -12,7 +12,7 @@ const StoreContextProvider = (props) => {
   const [food_list, setFoodList] = useState([]);
 
   // Your local backend URL (from your .env setup)
-  const url = "http://localhost:4000";
+  const url = "https://ia3-food-ordering-project.onrender.com";
 
   // Function to fetch the entire menu list from the backend
   const fetchFoodList = async () => {
